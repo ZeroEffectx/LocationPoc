@@ -1,0 +1,25 @@
+{
+    "name": "botname",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "name": "development",
+            "endpoint": "http://localhost:3978/api/messages",
+            "appId": "",
+            "appPassword": "",
+            "id": "46"
+        },
+      {
+        "type": "qna",
+        "name": "RoyaltyInfo2018",
+        "kbId": "1b4fd03dYourNumberHere000008565e3e7",
+        "subscriptionKey": "5dd61YourNumberHere00000a579b",
+        "endpointKey": "f892caa4-Your-Number-Here34233f2f",
+        "hostname": "https://yourqnaservice.azurewebsites.net/qnamaker",
+        "id": "3"
+      }
+    ],
+    "padlock": "",
+    "version": "2.0"
+}

@@ -1,0 +1,42 @@
+﻿{
+  "name": "Bot_Builder_Simplified_Echo_Bot_V4",
+  "services": [
+    {
+      "type": "endpoint",
+      "name": "development",
+      "endpoint": "http://localhost:59081/api/messages",
+      "appId": "",
+      "appPassword": "",
+      "id": "1"
+    },
+    {
+      "type": "qna",
+      "name": "RoyaltyInfo2018",
+      "kbId": "YOURxKBxID",
+      "subscriptionKey": "YOURxSUBSCRIPTIONxKEY",
+      "endpointKey": "YOURxENDPOINTxKEY",
+      "hostname": "https://YOURxQNAxBOT.azurewebsites.net/qnamaker",
+      "id": "3"
+    },
+    {
+      "type": "endpoint",
+      "appId": "c5e41d5c-c1a0-4be5-8023-692f97124b1c",
+      "appPassword": "YOURxAPPxPASSWORD",
+      "endpoint": "https://YOURxBOTxURLxHERExFROMxPORTALxREGISTRATION.azurewebsites.net/api/messages",
+      "id": "2",
+      "name": "production"
+    },
+    {
+      "type": "luis",
+      "name": "LocationPOC",
+      "appId": "c5e41d5c-c1a0-4be5-8023-692f97124b1c",
+      "version": "0.1",
+      "authoringKey": "21414ebf54f043a4b717cebf3f41b1f7",
+      "subscriptionKey": "21414ebf54f043a4b717cebf3f41b1f7",
+      "region": "westus",
+      "id": "4"
+    }
+  ],
+  "padlock": "",
+  "version": "2.0"
+}
